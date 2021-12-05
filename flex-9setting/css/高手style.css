@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+a, a:hover {
+text-decoration: none;
+}
+
+h2, h3, h4, p {
+line-height: 1.8;
+}
+
+h2, h3, h4 {
+font-weight: bold;
+}
+
+h2 {
+font-size: 2rem;
+}
+
+h3 {
+font-size: 1.5rem;
+}
+
+h4 {
+font-size: 1.25rem;
+}
+
+.set-flex {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+}
+
+.set-align-items-center {
+    align-items: center;
+}
+
+.set-padding-s {
+padding: 1rem;
+}
+
+.set-padding-lr-s {
+padding: 0rem 1rem;
+}
+
+.set-padding-t-s {
+padding-top: 1rem;
+}
+
+.set-padding-b-s {
+padding-bottom: 1rem;
+}
+
+.set-mt-s {
+margin-top: 1rem;
+}
+
+.set-ml-m {
+margin-left: 2rem;
+}
+
+.set-padding-tb-m {
+padding: 2rem 0rem;
+}
+
+.set-word-color-green {
+color: #34d6ae;
+}
+
+.set-word-color-green a {
+color: #34d6ae;
+}
+
+.set-word-color-green a:hover, .set-word-color-green a a:active, .set-word-color-green a a:visited {
+color: #0d8668;
+font-weight: bold;
+}
+
+.set-word-color-white {
+color: #ffffff;
+}
+
+.container {
+width: 1024px;
+margin: 0 auto;
+}
+
+.header {
+background-color: #f1f1f1;
+}
+
+.header ul {
+    justify-content: flex-end;
+}
+
+.navbar .nav-list {
+border-bottom: 3px solid #ffffff;
+}
+
+.navbar .nav-list:hover {
+border-bottom: 3px solid #0d8668;
+}
+
+.navbar .logo {
+    flex: 2;
+}
+
+.top-img {
+background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+background-position: center;
+background-size: cover;
+height: 300px;
+}
+
+.course {
+justify-content: space-around;
+}
+
+.course .item {
+width: 33.3333%;
+margin: 1rem;
+text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.course .item img {
+height: 100px;
+}
+
+.course .item p {
+text-align: left;
+}
+
+.course ul {
+text-align: left;
+list-style: disc;
+}
+
+.footer {
+text-align: center;
+background-color: #34d6ae;
+color: #ffffff;
+}
